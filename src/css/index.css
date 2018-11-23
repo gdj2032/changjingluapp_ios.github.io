@@ -90,10 +90,7 @@ span{
     font-size: 40px;
     background-color: #56555d;
     color: #eeeeee;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 .wei_txt{
     text-align: center;
