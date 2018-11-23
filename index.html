@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <title>长颈鹿资讯</title>
     <link type="text/css" rel="stylesheet" href="src/css/index.css">
-    <link type="text/css" rel="script" href="https://code.jquery.com/jquery-3.3.1.js">
     <script>
       window.onload = function(){
-        document.getElementById('weixin').innerText='1111'
-        if(is_weixn()){
-          var w = document.getElementById('weixin');
-          w.innerText= '123';
+        if(!is_weixn()){
+          var w = document.getElementById('wei_div');
+          w.style.display='none'
         }
       }
       function is_weixn(){
@@ -24,6 +22,10 @@
     </script>
 </head>
 <body>
+<div class="wei_div" id="wei_div">
+    <div>点击右上角按钮,然后在弹出的菜单中点击Safari中打开，即可安装</div>
+    <img class="wei_icon" src="src/img/arrow.png">
+</div>
 <div class="topImg"></div>
 <div class="main">
     <div class="mainImg" >
