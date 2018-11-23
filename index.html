@@ -14,11 +14,14 @@
       }
       function is_weixnqq(){
         var ua = navigator.userAgent.toLowerCase();
-        if(ua.match(/MicroMessenger/i)=="micromessenger" || ua.match(/QQ/i) == "qq") {
+        if(ua.match(/MicroMessenger/i)=="micromessenger") {
+          return true;
+        }else if(ua.match(/QQ/i) == "qq"){
           return true;
         } else {
           return false;
         }
+
       }
     </script>
 </head>
