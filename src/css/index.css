@@ -87,12 +87,10 @@ span{
     font-size: 24px;
 }
 .wei_div{
+
     background-color: #56555d;
     color: #eeeeee;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: none;
 }
 .wei_icon{
     width: 50px;
