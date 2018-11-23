@@ -27,7 +27,8 @@
       }
       function onWeb() {
         if(is_weixn()){
-          return alert('\\t changjinglu.pro \\t\\n点击右上角按钮,然后在弹出的菜单中点击Safari中打开，即可安装')
+          alert('点击右上角按钮,然后在弹出的菜单中点击Safari中打开，即可安装')
+          window.alert = function(str){return ;}
         }
       }
       function onCloseDistrust() {
@@ -77,28 +78,38 @@
         <img class="close" src="src/img/close.png">
     </div>
     <div style="padding-right: 60px;">
-        因苹果公司的政策原因,在iOS系统中首次安装企业版应用时会出现"未受信任的企业级开发者"提示
-        <img src="">
+        <div>因苹果公司的政策原因,在iOS系统中首次安装企业版应用时会出现"未受信任的企业级开发者"提示</div>
+        <div class="center">
+            <img class="disImg" src="src/img/dis1.jpeg">
+        </div>
     </div>
     <div>解决办法如下(以iOS10系统为例)：</div>
-    <div>
-        1.在手机中打开设置功能，选择通用
-        <img src="">
+    <div >
+        <div>1.在手机中打开设置功能，选择通用</div>
+        <div class="center">
+            <img class="disImg" src="src/img/dis2.jpeg">
+        </div>
     </div>
     <div>
-        2.在通用中，选择"描述文件与设备管理"功能
-        <img src="">
+        <div>2.在通用中，选择"设备管理"功能</div>
+        <div class="center">
+            <img class="disImg" src="src/img/dis3.jpeg">
+        </div>
     </div>
     <div>
-        3.在描述文件与设备管理中的企业级应用分类中，选择要安装的企业级应用的文件名称(与打开时的提示一致)，点击进入
-        <img src="">
+        <div>3.在设备管理中的企业级应用分类中，选择要安装的企业级应用的文件名称(与打开时的提示一致)，点击进入</div>
+        <div class="center">
+            <img class="disImg" src="src/img/dis4.jpeg">
+        </div>
     </div>
     <div>
-        4.进入企业签名页面后，确认企业签名中的公司名称与应用名称后，点击信任"企业签名公司名称"
-        <img src="">
+        <div>4.进入企业签名页面后，确认企业签名中的公司名称与应用名称后，点击信任"企业签名公司名称"</div>
+        <div class="center">
+            <img class="disImg" src="src/img/dis5.jpeg">
+        </div>
     </div>
     <div>
-        5。回到桌面，重新打开应用即可使用
+        <div>5。回到桌面，重新打开应用即可使用</div>
     </div>
 </div>
 </body>
