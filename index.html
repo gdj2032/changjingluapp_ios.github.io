@@ -8,7 +8,6 @@
 
     <script>
       window.onload = function(){
-        $('.wei_div').hide();
         if(is_weixnqq()){
           $('.wei_div').show();
         }
@@ -24,8 +23,8 @@
     </script>
 </head>
 <body>
-<div class="wei_div" id="wei_div">
-    <div>点击右上角按钮,然后在弹出的菜单中点击Safari中打开，即可安装</div>
+<div class="wei_div" id="wei_div" style="display: none">
+    <div class="wei_txt">点击右上角按钮,然后在弹出的菜单中点击Safari中打开，即可安装</div>
     <img class="wei_icon" src="src/img/arrow.png">
 </div>
 <div class="topImg"></div>

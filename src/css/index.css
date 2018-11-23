@@ -87,13 +87,17 @@ span{
     font-size: 24px;
 }
 .wei_div{
-
+    font-size: 40px;
     background-color: #56555d;
     color: #eeeeee;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.wei_txt{
+    text-align: center;
+    margin: 10px 30px 10px 30px;
 }
 .wei_icon{
     width: 50px;
