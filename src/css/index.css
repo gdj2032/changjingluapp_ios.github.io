@@ -29,18 +29,21 @@ body{
     width: 16px;
     height: 16px;
 }
+.cjlzx{
+    font-size: 30px;
+}
 .edition{
     background-color: #40acf1;
     border-radius:5px;
     color: #ffffff;
     padding: 2px 10px 2px 10px;
-    font-size: 16px;
+    font-size: 20px;
 }
 .edition_size{
     color: #969b9d;
 }
 .edition_size span{
-    font-size: 20px;
+    font-size: 24px;
 }
 .qrCodeDiv{
     width: 100%;
