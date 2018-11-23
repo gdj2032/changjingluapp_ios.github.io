@@ -11,19 +11,19 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://github.com/gdj2032/gdj.github.io/blob/master/changjingluApp_ios.ipa</string>
+                    <string>https://github.com/gdj2032/gdj.github.io/raw/master/changjingluApp_ios.ipa</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>display-image</string>
                     <key>url</key>
-                    <string>https://github.com/gdj2032/gdj.github.io/blob/master/icon_57x57.png</string>
+                    <string>https://raw.githubusercontent.com/gdj2032/gdj.github.io/master/icon_57x57.png</string>
                 </dict>
                 <dict>
                     <key>kind</key>
                     <string>full-size-image</string>
                     <key>url</key>
-                    <string>https://github.com/gdj2032/gdj.github.io/blob/master/icon_512x512.png</string>
+                    <string>https://raw.githubusercontent.com/gdj2032/gdj.github.io/master/icon_512x512.png</string>
                 </dict>
             </array>
             <key>metadata</key>
