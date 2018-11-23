@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <title>长颈鹿资讯</title>
     <link type="text/css" rel="stylesheet" href="src/css/index.css">
-
+    <link type="text/css" rel="script" href="https://code.jquery.com/jquery-3.3.1.js">
     <script>
       window.onload = function(){
-        if(isWeiXin()){
-          var p = document.getElementById('weixin');
-          p.style.display = 'block';
+        if(is_weixn()){
+          var w = document.getElementById('weixin');
+          w.innerText= '123';
         }
       }
-      function isWeiXin(){
-        var ua = window.navigator.userAgent.toLowerCase();
-        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+      function is_weixn(){
+        var ua = navigator.userAgent.toLowerCase();
+        if(ua.match(/MicroMessenger/i)=="micromessenger") {
           return true;
-        }else{
+        } else {
           return false;
         }
       }
